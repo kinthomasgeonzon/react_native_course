@@ -80,6 +80,12 @@ export default function HomeScreen() {
           <ThemedText type="link">Open Drill 1 — break the refresh</ThemedText>
         </Link>
       </ThemedView>
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">Step 5: Layout and Flexbox drill</ThemedText>
+        <Link href="/drills/drill-2">
+          <ThemedText type="link">Open Drill 2 — port and defend</ThemedText>
+        </Link>
+      </ThemedView>
     </ParallaxScrollView>
   );
 }
