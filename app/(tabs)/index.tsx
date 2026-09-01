@@ -86,6 +86,12 @@ export default function HomeScreen() {
           <ThemedText type="link">Open Drill 2 — port and defend</ThemedText>
         </Link>
       </ThemedView>
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">Step 6: Text, Input and Forms drill</ThemedText>
+        <Link href="/drills/drill-3">
+          <ThemedText type="link">Open Drill 3 — the note composer</ThemedText>
+        </Link>
+      </ThemedView>
     </ParallaxScrollView>
   );
 }
