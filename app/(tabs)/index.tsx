@@ -92,6 +92,12 @@ export default function HomeScreen() {
           <ThemedText type="link">Open Drill 3 — the note composer</ThemedText>
         </Link>
       </ThemedView>
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">Step 7: Touch and Press Handling drill</ThemedText>
+        <Link href="/drills/drill-4">
+          <ThemedText type="link">Open Drill 4 — one button to rule them all</ThemedText>
+        </Link>
+      </ThemedView>
     </ParallaxScrollView>
   );
 }
