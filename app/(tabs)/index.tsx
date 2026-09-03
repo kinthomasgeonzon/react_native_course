@@ -98,6 +98,12 @@ export default function HomeScreen() {
           <ThemedText type="link">Open Drill 4 — one button to rule them all</ThemedText>
         </Link>
       </ThemedView>
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">Step 8: Lists and Virtualization drill</ThemedText>
+        <Link href="/drills/drill-5">
+          <ThemedText type="link">Open Drill 5 — five thousand rows</ThemedText>
+        </Link>
+      </ThemedView>
     </ParallaxScrollView>
   );
 }
